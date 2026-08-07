@@ -1,0 +1,59 @@
+{
+  "expo": {
+    "name": "INA",
+    "slug": "music-docs-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "newArchEnabled": true,
+    "splash": {
+      "backgroundColor": "#12141A"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.example.musicdocsapp",
+      "infoPlist": {
+        "UIBackgroundModes": [
+          "audio"
+        ],
+        "UIFileSharingEnabled": true,
+        "LSSupportsOpeningDocumentsInPlace": true
+      }
+    },
+    "android": {
+      "package": "com.example.musicdocsapp",
+      "adaptiveIcon": {
+        "backgroundColor": "#12141A"
+      },
+      "permissions": [
+        "android.permission.POST_NOTIFICATIONS",
+        "android.permission.RECORD_AUDIO",
+        "android.permission.MODIFY_AUDIO_SETTINGS",
+        "android.permission.READ_EXTERNAL_STORAGE",
+        "android.permission.WRITE_EXTERNAL_STORAGE",
+        "android.permission.INTERNET"
+      ]
+    },
+    "plugins": [
+      [
+        "expo-audio",
+        {
+          "microphonePermission": false,
+          "enableBackgroundPlayback": true
+        }
+      ],
+      [
+        "expo-file-system",
+        {
+          "supportsOpeningDocumentsInPlace": true,
+          "enableFileSharing": true
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "5c117608-59d1-4916-9b19-b80729e76f35"
+      }
+    }
+  }
+}
