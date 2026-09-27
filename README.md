@@ -39,9 +39,8 @@ scanner; iOS: Camera app) and the app will open on your phone.
 
 ## Download the apk file
 
-[📱 Download Music App APK](https://github.com/Chukyyfer/Music-docs-app/releases/tag/v1.0.0)
-
-
+[📱 Download Music App APK](
+https://chukyyfer.gumroad.com/l/rfykfn)
 
 
 
