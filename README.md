@@ -69,6 +69,22 @@ normal document. Two things worth knowing:
   which applies your exact `app.json` config. Basic background
   playback should still work fine in Expo Go for everyday testing.
 
+
+
+
+
+
+## Download
+
+[📱 Download Music App APK](https://github.com/Chukyyfer/Music-docs-app/releases/tag/v1.0.0)
+
+
+
+
+
+
+
+
 ## Project structure
 
 ```
