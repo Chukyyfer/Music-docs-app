@@ -30,9 +30,20 @@ npx expo install --fix
 
 npx expo start
 ```
-
 Scan the QR code that appears with the Expo Go app (Android: in-app
 scanner; iOS: Camera app) and the app will open on your phone.
+
+
+
+
+
+## Download the apk file
+
+[📱 Download Music App APK](https://github.com/Chukyyfer/Music-docs-app/releases/tag/v1.0.0)
+
+
+
+
 
 ## How the PDF reader works
 
@@ -68,16 +79,6 @@ normal document. Two things worth knowing:
   you'd eventually want an [EAS development build](https://docs.expo.dev/develop/development-builds/introduction/),
   which applies your exact `app.json` config. Basic background
   playback should still work fine in Expo Go for everyday testing.
-
-
-
-
-
-
-## Download
-
-[📱 Download Music App APK](https://github.com/Chukyyfer/Music-docs-app/releases/tag/v1.0.0)
-
 
 
 
